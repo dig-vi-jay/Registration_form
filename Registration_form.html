@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head><title>Registration Form</title>
+    <style>
+    body{
+      background-color:#fffacd;
+    }
+button {
+font:bold;
+}
+    
+    fieldset{
+	  border:4px solid grey;
+      background-color:#fff8dc;
+	  width:700px;
+	  margin:0px auto;
+	 
+	 }
+     input{
+       margin:5px;
+    }
+    h2{
+      font-size: 20px;
+    }
+    table{
+      align-content:center;
+    }
+
+    </style>
+  </head>
+  <body>
+    <h2><center>National Institute of Technology Patna<br><small>Ashok Rajpath Road,Patna,800005(Bihar)India</small><br><small>Phone no:078569;768123;website:www.nitp.ac.in</small></center></h2><hr>
+    <h2 style="color:#780997"><center><ins>REGISTRATION FORM</ins></center></h2>
+    <form>
+      <fieldset>
+   <div>
+     <h2><ins>BASIC DETAILS</ins></h2><br>
+     <table>
+       <col style="width:40%">
+       <col style="width:60%">
+       <tr>
+         <td>Application Number</td>
+         <td><input type="text"></td>
+       </tr>
+       <tr>
+         <td>Name</td>
+         <td><input type="text"></td></tr>
+         <tr>
+           <td>Roll No</td>
+           <td><input type="number"</td>
+         </tr>
+         <tr>
+           <td>Gender</td>
+           <td>Male<input type="radio" value="Male" name="Gender">Female<input type="radio" value="Female" name="Gender"></td>
+         </tr>
+         <tr>
+           <td>DOB</td>
+           <td><input type="date"</td>
+         </tr>
+         <tr>
+           <td>PWD</td>
+           <td>Yes<input type="radio" value="Yes" name="pwd">No<input type="radio" value="No" name="pwd"></td>
+         </tr>
+         <tr>
+           <td>Category</td>
+           <td><select values"">
+             <option value="GEN">GEN</option>
+             <option value="SC">SC</option>
+             <option value="ST">ST</option>
+              <option value="OBC">OBC</option>
+           </select></td>
+         </tr>
+         <tr>
+           <td>E-mail</td>
+           <td><input type="email"></td>
+         </tr>
+         <tr>
+           <td>Address</td></tr></table>
+           <textarea rows="5" cols="60" maxlength="100"></textarea>
+           <ins><br><br>PLEASE INPUT THE CORRECT CODE</ins>
+          <table>
+         <tr><br>
+           <td><br>Pin Code</td>
+           <td><br><input type="zip"maxlength="6"></td>
+         </tr>
+         <tr>
+           <td>Phone No of Student</td>
+           <td><input type="tel"maxlength="10"></td>
+           </tr>
+           <tr>
+           <td>Phone No of Parents</td>
+           <td><input type="tel"maxlength="10"></td>
+          </tr>
+     </table>
+   </div>
+   </fieldset><br><br>
+   <fieldset>
+     <div>
+       <h2><ins>ACADEMIC INFORMATION</ins></h2>
+       <table>
+         <tr><br><td>Course</td>
+         <td><select values"">
+             <option value="B.Tech">B.Tech</option>
+             <option value="B.Arch">B.Arch</option>
+             <option value="M.Tech">M.Tech</option>
+              <option value="IMSC">IMSC</option>
+           </select>
+         </td></tr>
+         <tr>
+           <td>Branch</td>
+           <td> <select values"">
+             <option value="CSE">COMPUTER SCIENCE AND ENGINEERING</option>
+             <option value="EC">ELECTRONIC AND COMMUNICATION</option>
+             <option value="EE">ELECTRICAL ENGINEERING</option>
+              <option value="ME">MECHANICAL ENGINEERING</option>
+                <option value="CE">CIVIL ENGINEERING</option>
+             <option value="ARCH">ARCHITECTURE</option>
+             <option value="IIMSC MATHS">IIMSC MATHS</option>
+              <option value="IIMSC CHEM">IIMSC CHEMISTRY</option>
+              <option value="IIMSC PHYSICS">IIMSC PHYSICS</option></select> </td></tr>
+              <tr><td>Semester</td>
+              <td> <select values"">
+             <option value="1st">1st</option>
+             <option value="2nd">2nd</option>
+             <option value="3rd">3rd</option>
+              <option value="4th">4th</option>
+              <option value="5th">5th</option>
+           </select>
+              </td></tr>
+              <tr><td>All India Rank(2019 JEE Main)</td><td><input type="number"></td></tr>
+              <tr><td>Category Rank(2019 JEE Main)</td><td><input type="number"></td></tr>
+              <tr><td>CGPA</td>
+              <td><input type="number"min="0.0"max="10.0"maxlength="3"=""></td></tr>
+              <tr><td>Backlog(if any)</td><td>Yes<input type="radio"value="Yes"name="Backlog">No<input type="radio"value="No"name="Backlog"></td></tr>
+              <tr><td>Hostel Accommodation(if any)</td><td>Yes<input type="radio"value="Yes"name="Hostel Accommodation">No<input type="radio"value="No"name="Hostel Accommodation"></td></tr><tr><td>Name of Hostel</td>
+                <td> <select values"">
+             <option value="Sone">Sone</option>
+             <option value="Kosi">Kosi</option>
+             <option value="Brahmaputra">Brahmaputra</option>
+              <option value="Ganga">Ganga</option>
+			  <option value="Bagmati">Bagmati</option></select></td></tr>
+              <tr><td>Room No</td><td><input type="number"min="001"max="999"></td></tr>
+       </table>
+     </div>
+   </fieldset><br><br>
+   <fieldset><div>
+     <h2><ins>ACCOUNT DETAILS</ins></h2>
+     <table><br>
+       <tr><td>Account Holder Name</td><td><input type="text"</td><td>(As per Bank Passbook)</td></tr>
+       <tr><td>Bank Account Number</td><td><input type="number"></td></tr><tr><td>IFSC Code</td><td><input type="text"></td></tr>
+       <tr><td>Bank Name</td><td><input type="text"></td></tr>
+       <tr><td>Branch Name</td><td><input type="text"></td></tr>
+     </table>
+   </div></fieldset><br>
+   <fieldset><h2><ins>TERMS AND CONDITIONS</ins></insTerms></h2><p><input type="checkbox"name=""value="">I certify that the above information provided by me is correct to best of my knowledge.<br><input type="checkbox"name=""value="">I undertake to submit all the documents in original for verification.</p></fieldset>
+       <center><button type="submit" class="submit">Submit</button>
+        <button type="reset" class="Reset">Reset</button></center>
+   </form>
+  </body>
+</html>
